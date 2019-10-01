@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders nothing when closed 1`] = `""`;
+
+exports[`Modal renders when open 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 5,
+        "margin": "0 auto",
+        "maxWidth": 300,
+        "padding": 30,
+      }
+    }
+  />
+</div>
+`;
